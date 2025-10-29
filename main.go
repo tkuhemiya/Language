@@ -1,0 +1,31 @@
+package main
+
+import (
+	"LangLang/cli/repl"
+	"os"
+)
+
+func main() {
+
+	repl.Start(os.Stdin, os.Stdout)
+
+	// if len(os.Args) < 2 {
+	// 	fmt.Println("Error: no input provided")
+	// 	fmt.Println("Usage: LangLang <file>")
+	// 	return
+	// }
+
+	// src, err := os.ReadFile(os.Args[1])
+	// if err != nil {
+	// 	fmt.Println("Error: couldn't open file")
+	// 	panic(err)
+	// }
+
+	// l := lexer.NewLexer(string(src))
+	// tokens := l.Tokenize()
+
+	// p := parser.NewParser(tokens)
+	// program := p.ParseProgram()
+
+	// codegen.EmitQBE(program, "output.ssa")
+}
