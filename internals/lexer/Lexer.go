@@ -4,8 +4,8 @@ import Token "Language/internals/token"
 
 type Lexer struct {
 	input        string // loads input
-	readPosition int    // index of reading position
-	chPosition   int    // index of ch
+	readPosition int    // index of next reading position
+	chPosition   int    // index of read position/ index of ch
 	ch           byte   // current char
 }
 
@@ -16,7 +16,7 @@ func NewLexer(input string) *Lexer {
 		chPosition:   0,
 		ch:           0,
 	}
-	lexer.readChar()
+	lexer.readChar() // load first byte into ch
 	return lexer
 }
 

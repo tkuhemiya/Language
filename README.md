@@ -56,23 +56,4 @@ if num == 1
 fi
 ```
 
-# my file structure
-LangLang 
-    cli/
-        repl/
-            repl.go // has package name repl
-    internals/
-        lexer/
-            Lexer.go // has packagename lexer
-            token.go // has packagename lexer
-    main.go   // has package name LangLang
 
-# my mod file
-module LangLang
-
-go 1.24.5
-
-# Error
-in repl/repl.go im getting error import (
-	"LangLang/lexer" // could not import LangLang/lexer (no required module provides package "LangLang/lexer")compilerBrokenImport
-)
