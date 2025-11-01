@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LangLang/cli/repl"
+	"Language/cli/repl"
 	"os"
 )
 
@@ -11,7 +11,6 @@ func main() {
 
 	// if len(os.Args) < 2 {
 	// 	fmt.Println("Error: no input provided")
-	// 	fmt.Println("Usage: LangLang <file>")
 	// 	return
 	// }
 
@@ -27,5 +26,4 @@ func main() {
 	// p := parser.NewParser(tokens)
 	// program := p.ParseProgram()
 
-	// codegen.EmitQBE(program, "output.ssa")
 }

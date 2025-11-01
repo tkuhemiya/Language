@@ -1,9 +1,9 @@
 package lexer
 
-import Token "LangLang/internals/token"
+import Token "Language/internals/token"
 
 type Lexer struct {
-	input        string // loads the whole file
+	input        string // loads input
 	readPosition int    // index of reading position
 	chPosition   int    // index of ch
 	ch           byte   // current char

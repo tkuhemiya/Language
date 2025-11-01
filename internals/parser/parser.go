@@ -1,9 +1,9 @@
 package parser
 
 import (
-	"LangLang/internals/ast"
-	"LangLang/internals/lexer"
-	Token "LangLang/internals/token"
+	"Language/internals/ast"
+	"Language/internals/lexer"
+	Token "Language/internals/token"
 )
 
 type Parser struct {

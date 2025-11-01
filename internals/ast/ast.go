@@ -1,7 +1,7 @@
 package ast
 
 import (
-	Token "LangLang/internals/token"
+	Token "Language/internals/token"
 )
 
 type Node interface {

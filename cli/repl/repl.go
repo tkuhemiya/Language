@@ -1,8 +1,8 @@
 package repl
 
 import (
-	"LangLang/internals/lexer"
-	Token "LangLang/internals/token"
+	"Language/internals/lexer"
+	Token "Language/internals/token"
 	"bufio"
 	"fmt"
 	"io"

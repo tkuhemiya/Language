@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	Token "LangLang/internals/token"
+	Token "Language/internals/token"
 	"testing"
 )
 

@@ -31,7 +31,7 @@ print add add 9 10 10           // 29
 
 ```
 num = 10
-fn isodd num -> return 10 % 2
+fn isodd num -> return num % 2
 if isodd num > print "odd" || print "even" 
 ```
 
