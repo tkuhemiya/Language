@@ -15,7 +15,7 @@
 
 # The Language
 
-- dynamically types, while supporting types
+- dynamically typed, while supporting types
 
 ```
 x :: Integer = 9
